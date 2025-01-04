@@ -17,18 +17,21 @@ Program ini dibuat untuk memberikan memvalidasi data input pada proses pendaftar
 # cara kerja program 
 
 1. Validasi Nama
+   
    ![Screenshot 2025-01-04 210959](https://github.com/user-attachments/assets/b2775722-d2ca-411b-8cc7-2cd438931ae5)
 
    * Fungsi isalpha() memastikan bahwa name hanya terdiri dari huruf.
    * Jika nama berisi angka, spasi, atau karakter khusu, valdasi akan gagal, dan pesan error ditambahkan ke daftar errors.
 
 2. Validasi Nomor Telepon
+   
      ![Screenshot 2025-01-04 213001](https://github.com/user-attachments/assets/a688533c-b5a1-4ab6-b8a6-21bd1058fc3b)
 
    * Fungsi isdigit() memastikan bahwa phone hanya terdiri dari angka.
    * Jika phone berisi huruf, spasi, atau karakter lain, validasi akan gagal.
 
 3. Validasi Email
+   
      ![Screenshot 2025-01-04 211638](https://github.com/user-attachments/assets/f2d88866-bb8a-4fe5-9aa1-1af2e7141fe4)
 
      * Ekspresi reguler ^\S+@\S+\.\S+$ memastikan bahwa:
